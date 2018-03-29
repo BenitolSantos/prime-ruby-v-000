@@ -9,6 +9,7 @@ def prime?(integer)# Add  code here!
   end
 end
 
+binding.pry
 def factorial(integer)
   count = integer
   factorialed_num = integer
