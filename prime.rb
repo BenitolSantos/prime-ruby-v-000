@@ -20,7 +20,7 @@ def factorial(integer)
   factorialed_num
 end
 
-prime?(121)
+puts prime?(121)
 
 #A prime number anything divisible by itself alone and 1/ not including 1 and 0
 #what is n! ? n! is (n,n-1....0)
