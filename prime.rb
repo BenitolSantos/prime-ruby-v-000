@@ -20,8 +20,6 @@ def factorial(integer)
   factorialed_num
 end
 
-puts factorial(4)
-
 
 #A prime number anything divisible by itself alone and 1/ not including 1 and 0
 #what is n! ? n! is (n,n-1....0)
