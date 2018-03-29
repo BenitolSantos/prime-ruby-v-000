@@ -8,16 +8,12 @@ end
 def factorial(integer)
   count = integer
   factorialed_num = integer
-  if integer <= 0
-    false
-  else
-    while count != 1
-      count -= 1
-      factorialed_num = factorialed_num * count
-    end
-    return integer
+  while count != 1
+    count -= 1
+    factorialed_num = factorialed_num * count
   end
-
+  integer = factorialed_num
+  return integer
 end
 
 
