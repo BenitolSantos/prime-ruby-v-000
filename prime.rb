@@ -9,8 +9,9 @@ def prime?(integer)# Add  code here!
   end
 end
 
-binding.pry
+
 def factorial(integer)
+  binding.pry
   count = integer
   factorialed_num = integer
   while count != 1
