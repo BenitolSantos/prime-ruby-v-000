@@ -16,8 +16,7 @@ def factorial(integer)
     count -= 1
     factorialed_num = factorialed_num * count
   end
-  integer = factorialed_num
-  return integer
+  factorialed_num
 end
 
 
