@@ -10,7 +10,7 @@ def factorial(integer)
   factorialed_num = integer
   if integer <= 0
     false
-  else 
+  else
     while count != 1
       count -= 1
       factorialed_num = factorialed_num * count
