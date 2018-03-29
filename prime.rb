@@ -11,6 +11,7 @@ end
 
 
 def factorial(integer)
+  binding.pry
   count = integer
   factorialed_num = integer
   while count != 1
@@ -19,6 +20,8 @@ def factorial(integer)
   end
   factorialed_num
 end
+
+factorial(4)
 
 
 #A prime number anything divisible by itself alone and 1/ not including 1 and 0
