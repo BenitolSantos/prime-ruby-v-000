@@ -2,7 +2,7 @@ require "pry"
 
 # p is prime if (p-1)! mod p ≡ -1 mod p , for positive number p <- theorem simplified.
 def prime?(integer)# Add  code here!
-  if integer < 0 #
+  if integer < 0 
     false
   else
   factorial(integer - 1) % integer == (-1 % integer) ? true : false
