@@ -11,7 +11,6 @@ end
 
 
 def factorial(integer)
-  binding.pry
   count = integer
   factorialed_num = integer
   while count != 1
